@@ -1,0 +1,162 @@
+.press-start-2p-regular {
+   font-family: "Press Start 2P", serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+
+.wrapper {
+   max-width: 960px;
+   min-width: 450px;
+   background-color: black;
+   background-blend-mode: overlay;
+   margin: 1rem auto;
+   font-size: small;
+}
+
+.wrapper a {
+   color: white;
+}
+.wrapper a:hover {
+   color: red;
+}
+
+body {
+   background-image: url(images/empty-rune-background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+   color: white;
+}
+
+header {
+   background-color: red;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: .5rem 1rem;
+}
+
+nav ul {
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+nav li {
+   font-size: medium;
+   margin: 3px;
+   background-color: black;
+   padding: 4px;
+   border-radius: 8px;
+}
+
+img {max-width: 100%;}
+
+.headerimage {
+   display: block;
+   margin: 0 auto;
+}
+
+main {
+   padding: 1rem;
+   line-height: 1rem;
+}
+
+main .toppart {
+   text-align: center;
+   padding-bottom: 1rem;
+}
+
+main h1 {
+   text-align: center;
+   font-size: 2rem;
+   padding: 1rem;
+   font-weight: bold;
+}
+
+main h2 {
+   font-size: 1.25rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+}
+
+main h3 {
+   font-size: 1rem;
+   margin-bottom: 1rem;
+   font-weight: bold;
+}
+
+main li {
+   margin-left: 1rem;
+   margin-bottom: 1rem;
+   list-style-type: square;
+}
+
+footer {
+   text-align: right;
+   font-size: xx-small;
+   line-height: 0.25rem;
+   padding: 1rem;
+}
+
+.devs h2 {text-align: center;}
+
+.devbio {
+   display: flex;
+   margin-bottom: 1rem;
+}
+
+.devbio img {
+   height: 125px;
+   margin: auto auto;
+}
+
+.biotext h3 {
+   font-size: medium;
+   margin-bottom: 1rem;
+}
+
+.sa64 {
+   color: blue;
+}
+
+.description {
+   display: flex;
+}
+
+.description img {
+   height: 125px;
+   margin: auto auto;
+}
+
+.onescreenshot {
+   display: block;
+   margin: 1rem auto;
+   border: 1px white solid;
+}
+
+.twoscreenshots {
+   margin: 1rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.twoscreenshots img {
+   border: 1px white solid;
+}
+
+.threescreenshots {
+   margin: 1rem;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.threescreenshots img {
+   border: 1px white solid;
+}
+
+.card {
+   border: 5px white solid;
+}
