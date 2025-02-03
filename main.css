@@ -179,6 +179,15 @@ footer {
    border: 5px white solid;
 }
 
+.placeholder {
+   text-align: center;
+}
+
+.note {
+   font-size: xx-small;
+   color: grey;
+}
+
 /* TABLET Media Query
 ------------------------------------*/
 @media (max-widith: 768px) {
