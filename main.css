@@ -176,7 +176,10 @@ footer {
 }
 
 .card {
+   background-color: black;
+   padding: 10px;
    border: 5px white solid;
+   border-radius: 1rem;
 }
 
 .placeholder {
