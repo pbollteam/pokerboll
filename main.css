@@ -39,6 +39,7 @@ header {
 }
 
 nav ul {
+   text-align: right;
    list-style-type: none;
    display: flex;
    flex-wrap: wrap;
